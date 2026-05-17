@@ -1,0 +1,123 @@
+
+/* .parent{
+  font-family: "Happy Monkey", system-ui;
+  font-optical-sizing: auto;
+  
+} */
+
+
+
+#displypic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 6px solid #efb0c9
+}
+
+body{
+   font-family: "Happy Monkey", system-ui;
+    font-style: normal;
+    text-align: center;
+    background: linear-gradient(lightskyblue, #efb0c9);
+    color: #ffffff;
+  
+}
+
+h1, h2, h4, h3, p{
+  text-shadow: 0px 0px 1px black;
+}
+
+
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bday-age{
+  margin: 10px 0 10px 0;
+  padding: 5px 10px;
+  background: #efb0c9;
+  border-radius: 10px;
+}
+
+#bday-date{
+  margin: 0;
+  padding: 5px 10px;
+  background: #efb0c9;
+  border-radius: 10px;
+}
+
+.gift-items{
+margin: 40px 0;
+}
+
+.giftpack{
+  background-image: url(images/giftpack.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  border: 4px solid white;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+}
+
+#happy{
+margin-bottom: 10px;
+}
+
+#hover{
+margin: 5px 0 10px 0;
+}
+
+#hover1:hover{
+    background-image: url("images/happy.gif");
+  }
+
+
+ #hover2:hover{
+  background-image: url(images/hot.gif);
+ }
+
+
+
+ 
+#hover3:hover{
+    background-image: url(images/Dog\ Driving\ GIF.gif);
+  }
+
+
+
+#hover4:hover{
+  background-image: url(images/Genius.gif);
+}
+
+
+
+#hover5:hover{
+  background-image: url(images/badass.gif);
+}
+
+
+#hover6{
+   height: 200px;
+   
+  }
+  
+#hover6:hover{
+    background-image: url(images/cheer\ GIF.gif);
+  }
+
+ 
+
+  #footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px auto;
+  }
+
+  a{
+    color: white;
+  }
+
